@@ -1,0 +1,145 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: auto;
+  background: #fff;
+  margin: auto;
+  text-decoration: none;
+ 
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+  text-decoration: none;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  text-decoration:#222;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+  text-decoration: none;
+}
+
+.ui.grid > .row {
+  background: #fff;
+  text-decoration: none;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+  text-decoration: none;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+  text-decoration: none;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+  text-decoration: none;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+  text-decoration: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.column.rp h1 {
+  color: #333;
+  text-decoration: none;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+  text-decoration: none;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+  text-decoration: none;
+}
+
+
+.link{text-decoration: none;}
+
+.veg
+{
+  height: 20px;
+  width: 20px;
+  margin-right: auto;
+}
+
+.row1
+{
+  display: flex;
+  
+}
+
+.cart_button
+{
+  border-right-color: #ff3e6c;
+}
+
+.pizza_type{
+  top:20px;
+  margin-right: 30px;
+  right: 25rem;
+}
+
+.veg_button
+{
+    right: 60px;
+}
