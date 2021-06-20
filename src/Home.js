@@ -13,7 +13,7 @@ function Home() {
             <Banner/>
             <MenuDisplay/>
             <ProductComponent/>
-            <PopUp/>
+    
             {/*<Footer/>*/}
         </div>
     )
